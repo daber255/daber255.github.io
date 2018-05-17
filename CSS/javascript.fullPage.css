@@ -100,7 +100,6 @@ html.fp-enabled,
     margin-top: -32px;
     top: 50%;
     opacity: 1;
-    color: black;
 }
 #fp-nav.right {
     right: 17px;
@@ -175,7 +174,7 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
