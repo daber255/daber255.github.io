@@ -101,10 +101,10 @@ html.fp-enabled,
     top: 50%;
     opacity: 1;
     text-shadow: 
-    -1,5px -1,5px 0 #000,
-    1,5px -1,5px 0 #000,
-    -1,5px 1,5px 0 #000,
-    1,5px 1,5px 0 #000;
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 
 }
 #fp-nav.right {
