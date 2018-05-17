@@ -100,7 +100,7 @@ html.fp-enabled,
     margin-top: -32px;
     top: 50%;
     opacity: 1;
-    text-shadow: 2px 2px black;
+    text-shadow: 0 0 5px black;
 
 }
 #fp-nav.right {
