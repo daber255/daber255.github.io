@@ -113,7 +113,7 @@
 		/* Startseite
 		 * --------------------------------------- */
 		#section0{
-			background: linear-gradient(rgb(112, 214, 206), rgb(71, 71, 71));
+			background: linear-gradient(rgb(54, 180, 170), rgb(197, 197, 197));
 		}
 		#section0 h1{
 			color: #444;
@@ -134,7 +134,7 @@
 		/* Leistungen
 		 * --------------------------------------- */
 		#section1{
-			background: linear-gradient(rgb(71, 71, 71), rgb(138, 79, 79));
+			background: linear-gradient(rgb(197, 197, 197), rgb(180, 66, 66));
 		}
 		#section1 h1{
 			color: #fff;
@@ -147,7 +147,7 @@
 		/* Schwerpunkte
 		 * --------------------------------------- */
 		#section2{
-			background: linear-gradient(rgb(138, 79, 79), rgb(160, 135, 52));
+			background: linear-gradient(rgb(180, 66, 66), rgb(206, 228, 84));
 		}
 		#section2 h1{
 			color: #F2F2F2;
@@ -158,7 +158,7 @@
         /* Produkte
 		 * --------------------------------------- */
 		#section3{
-			background-color: #26C6DA;
+			background-color: rgb(206, 228, 84);
 		}
 		#section3 h1{
 			color: #F2F2F2;
