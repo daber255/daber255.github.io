@@ -73,7 +73,7 @@
 			margin: -75px 0 0 -75px;
 			border-radius: 50%;
 			border: 3px solid transparent;
-			border-top-color: #3498db;
+			border-top-color: #5e5e5e;
 		
 			-webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
 			animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -90,7 +90,7 @@
 				bottom: 5px;
 				border-radius: 50%;
 				border: 3px solid transparent;
-				border-top-color: #e74c3c;
+				border-top-color: #6b6b6b;
 		
 				-webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
 				animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -105,7 +105,7 @@
 				bottom: 15px;
 				border-radius: 50%;
 				border: 3px solid transparent;
-				border-top-color: #f9c922;
+				border-top-color: #757575;
 		
 				-webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
 				  animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -141,7 +141,7 @@
 				top: 0;
 				width: 51%;
 				height: 100%;
-				background: #222222;
+				background: #272f38;
 				z-index: 1000;
 				-webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
 				-ms-transform: translateX(0);  /* IE 9 */
@@ -266,7 +266,8 @@
 		/* Startseite
 		 * --------------------------------------- */
 		#section0{
-			background: linear-gradient(rgb(2, 168, 154), rgb(197, 197, 197));
+			/*background: linear-gradient(rgb(2, 168, 154), rgb(197, 197, 197));*/
+			background-image: url("background.jpg");
 		}
 		#section0 h1{
 			-webkit-transform: translateY(1000px);
@@ -281,7 +282,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #444;
+			color: rgb(209, 209, 209);
             
 		}
 
@@ -298,7 +299,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #444;
+			color: rgb(209, 209, 209);
             
 		}
 
@@ -366,7 +367,7 @@
 		/* Leistungen
 		 * --------------------------------------- */
 		#section1{
-			background: linear-gradient(rgb(197, 197, 197), rgb(180, 66, 66));
+			background: linear-gradient(rgb(70, 70, 70), rgb(150, 150, 150));
 		}
 		#section1 h1{
 			-webkit-transform: translateY(1000px);
@@ -381,7 +382,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #444;
+			color: rgb(204, 204, 204);
 		}
 
 		#section1.active h1{
@@ -398,7 +399,7 @@
 		/* Schwerpunkte
 		 * --------------------------------------- */
 		#section2{
-			background: linear-gradient(rgb(180, 66, 66), rgb(111, 165, 61));
+			background: linear-gradient(rgb(150, 150, 150), rgb(70, 70, 70));
 		}
 		#section2 h1{
 			-webkit-transform: translateY(1000px);
@@ -413,7 +414,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #F2F2F2;
+			color: #444;
 		}
 
 		#section2.active h1{
