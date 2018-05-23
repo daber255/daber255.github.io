@@ -141,7 +141,7 @@
 				top: 0;
 				width: 51%;
 				height: 100%;
-				background: #272f38;
+				background: #3f464d;
 				z-index: 1000;
 				-webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
 				-ms-transform: translateX(0);  /* IE 9 */
@@ -196,6 +196,10 @@
 		
 				-webkit-transition: all 0.3s 1s ease-out;  
 						transition: all 0.3s 1s ease-out;
+			}
+
+			.no-js #loader-wrapper {
+				display: none;
 			}
 
         /*Navbar
@@ -282,7 +286,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(209, 209, 209);
+			color: #F2F2F2;
             
 		}
 
@@ -299,7 +303,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(209, 209, 209);
+			color: #F2F2F2;
             
 		}
 
@@ -363,11 +367,35 @@
 			text-align: center;
 		}
 
+		.arrow {
+			text-align: center;
+			position: relative;
+			top: 60%;
+		  }
+
+		  .bounce {
+			-moz-animation: bounce 2s infinite;
+			-webkit-animation: bounce 2s infinite;
+			animation: bounce 2s infinite;
+		  }
+		  
+		  @keyframes bounce {
+			0%, 20%, 50%, 80%, 100% {
+			  transform: translateY(0);
+			}
+			40% {
+			  transform: translateY(-30px);
+			}
+			60% {
+			  transform: translateY(-15px);
+			}
+		  }
+
 
 		/* Leistungen
 		 * --------------------------------------- */
 		#section1{
-			background: linear-gradient(rgb(70, 70, 70), rgb(150, 150, 150));
+			background-color: rgb(143, 143, 143);
 		}
 		#section1 h1{
 			-webkit-transform: translateY(1000px);
@@ -382,7 +410,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(204, 204, 204);
+			color: #444;
 		}
 
 		#section1.active h1{
@@ -399,7 +427,7 @@
 		/* Schwerpunkte
 		 * --------------------------------------- */
 		#section2{
-			background: linear-gradient(rgb(150, 150, 150), rgb(70, 70, 70));
+			background-color: rgb(91, 95, 102);
 		}
 		#section2 h1{
 			-webkit-transform: translateY(1000px);
@@ -414,7 +442,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #444;
+			color: #F2F2F2;
 		}
 
 		#section2.active h1{
@@ -429,7 +457,7 @@
         /* Produkte
 		 * --------------------------------------- */
 		#section3{
-			background-color: rgb(111, 165, 61);
+			background-color: rgb(73, 88, 100);
 		}
 		#section3 h1{
 			-webkit-transform: translateY(1000px);
@@ -459,7 +487,7 @@
         /* Partner
 		 * --------------------------------------- */
 		#section4{
-			background-color: #00897B;
+			background-color: rgb(59, 85, 102);
 		}
 		#section4 h1{
 			-webkit-transform: translateY(1000px);
@@ -487,7 +515,7 @@
         /* Referenzen
 		 * --------------------------------------- */
 		#section5{
-			background-color: #AED581;
+			background-color: rgb(46, 87, 110);
 		}
 		#section5 h1{
 			-webkit-transform: translateY(1000px);
@@ -517,7 +545,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #444;
+			color: #F2F2F2;
             
 		}
 
@@ -541,7 +569,7 @@
         /* Sonstiges
 		 * --------------------------------------- */
 		#section6{
-			background-color: #43A047;
+			background-color: rgb(22, 79, 102);
 		}
 		#section6 h1{
 			-webkit-transform: translateY(1000px);
@@ -571,7 +599,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #444;
+			color: #F2F2F2;
             
 		}
 
