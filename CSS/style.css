@@ -286,7 +286,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(174, 212, 255);
+			color: rgb(0, 36, 77);
             
 		}
 
@@ -303,7 +303,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(174, 212, 255);
+			color: rgb(0, 36, 77);
             
 		}
 
@@ -410,7 +410,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #444;
+			color: rgb(43, 42, 42);
 		}
 
 		#section1.active h1{
