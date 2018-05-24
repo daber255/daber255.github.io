@@ -262,10 +262,19 @@
 		}
 
 		.maps{
-			position: relative;
-			top: 30%;
-			left: 20%;
-			right: 20%;
+			position: relative; 
+			padding-bottom: 30%; /* ratio 16x9 */
+			margin: 0 auto;
+			overflow: hidden; 
+			width: 85%;
+			height: 20%;
+		}
+
+		.maps iframe {
+			position: absolute; 
+			top: 25%;
+			width: 100%; 
+			height: 100%; 
 		}
 
 		/* Startseite
