@@ -57,8 +57,9 @@
 		#laden {
 			text-align: center;
 			color: white;
-			left: 48.8%;
-			top: 49.7%;
+			font-size: 24px;
+			left: 49%;
+			top: 61%;
 			position: fixed;
 			z-index: 1001;
 		}
@@ -141,7 +142,7 @@
 				top: 0;
 				width: 51%;
 				height: 100%;
-				background: #3f464d;
+				background: #465666;
 				z-index: 1000;
 				-webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
 				-ms-transform: translateX(0);  /* IE 9 */
@@ -229,7 +230,7 @@
 		
 		.main-nav a {
 			display: block;
-			font-size: 16px;
+			font-size: 22px;
 			color: #fff;
 			text-decoration: none;
 		}
@@ -240,18 +241,18 @@
 		/* Custom CSS
 		 * --------------------------------------- */
 		body{
-			font-family: arial,helvetica;
+			font-family: 'Ostrich', heavy;
 			color: #F2F2F2;
 		}
 		h1{
-			font-size: 4em;
+			font-size: 5em;
 		}
         h2{
-            font-size: 1.5em;
+            font-size: 2.5em;
         }
 
 		p{
-			font-size: 1em;
+			font-size: 2em;
 		}
 		.content{
 			position: relative;
@@ -271,12 +272,16 @@
 		 * --------------------------------------- */
 		#section0{
 			/*background: linear-gradient(rgb(2, 168, 154), rgb(197, 197, 197));*/
-			background-image: url("background.jpg");
+			background-image: url("bg.jpg");
+			background-size: cover;
+			height: 100%;
+			overflow: hidden;
 		}
 		#section0 h1{
 			-webkit-transform: translateY(1000px);
 	        transform: translateY(1000px);
 			opacity: 0;
+			font-size: 4.5em;
 			-webkit-transition: opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 			transition: opacity .66s ease-in-out,
@@ -286,7 +291,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(0, 36, 77);
+			color: rgba(0, 36, 77, 0.788);
             
 		}
 
@@ -294,6 +299,7 @@
 			-webkit-transform: translateY(1000px);
 	        transform: translateY(1000px);
 			opacity: 0;
+			font-size: 2em;
 			-webkit-transition: opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 			transition: opacity .66s ease-in-out,
@@ -303,7 +309,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(0, 36, 77);
+			color: rgba(0, 36, 77, 0.788);
             
 		}
 
@@ -371,6 +377,7 @@
 			text-align: center;
 			position: relative;
 			top: 60%;
+			opacity: 0.5;
 		  }
 
 		  .bounce {
@@ -395,7 +402,7 @@
 		/* Leistungen
 		 * --------------------------------------- */
 		#section1{
-			background-color: rgb(126, 154, 160);
+			background-color: rgb(147, 195, 228);
 		}
 		#section1 h1{
 			-webkit-transform: translateY(1000px);
@@ -410,7 +417,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: rgb(43, 42, 42);
+			color: rgba(0, 36, 77, 0.788);
 		}
 
 		#section1.active h1{
@@ -427,7 +434,7 @@
 		/* Schwerpunkte
 		 * --------------------------------------- */
 		#section2{
-			background-color: rgb(105, 148, 158);
+			background-color: rgb(120, 182, 223);
 		}
 		#section2 h1{
 			-webkit-transform: translateY(1000px);
@@ -457,7 +464,7 @@
         /* Produkte
 		 * --------------------------------------- */
 		#section3{
-			background-color: rgb(75, 135, 148);
+			background-color: rgb(88, 167, 219);
 		}
 		#section3 h1{
 			-webkit-transform: translateY(1000px);
@@ -487,7 +494,7 @@
         /* Partner
 		 * --------------------------------------- */
 		#section4{
-			background-color: rgb(50, 126, 143);
+			background-color: rgb(52, 149, 214);
 		}
 		#section4 h1{
 			-webkit-transform: translateY(1000px);
@@ -515,7 +522,7 @@
         /* Referenzen
 		 * --------------------------------------- */
 		#section5{
-			background-color: rgb(28, 113, 133);
+			background-color: rgb(17, 124, 196);
 		}
 		#section5 h1{
 			-webkit-transform: translateY(1000px);
@@ -569,7 +576,7 @@
         /* Sonstiges
 		 * --------------------------------------- */
 		#section6{
-			background-color: rgb(3, 90, 124);
+			background-color: rgb(0, 98, 163);
 		}
 		#section6 h1{
 			-webkit-transform: translateY(1000px);
