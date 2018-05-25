@@ -2,25 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<style> 
 		@font-face {
 			font-family: Ostrich;
 			src: url(OstrichSans-Heavy.otf);
 		}
-		</style>
-	<!--<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">-->
+	</style>
 	<title>Zatomation</title>
-	<meta name="author" content="Dario Berger" />
-	<meta name="description" content="Website of Zatomation" />
-	<meta name="keywords"  content="Zatomation, Ingenieurbüro, >Jörg, Zatotschil " />
-	<meta name="Resource-type" content="Document" />
+	<meta name="author" content="Dario Berger, Eric Vitzthum"/>
+	<meta name="description" content="Website of Zatomation"/>
+	<meta name="keywords"  content="Zatomation, Ingenieurbüro, Jörg, Zatotschil"/>
+	<meta name="Resource-type" content="Document"/>
 
-    <link rel="shortcut icon" href="Res/favicon.ico" type="image/ico" />
-    <link rel="icon" href="Res/favicon.ico" type="image/ico" />
-	<link rel="stylesheet" type="text/css" href="./CSS/javascript.fullPage.css" />
+    <link rel="shortcut icon" href="Res/favicon.ico" type="image/ico"/>
+    <link rel="icon" href="Res/favicon.ico" type="image/ico"/>
+	<link rel="stylesheet" type="text/css" href="./CSS/javascript.fullPage.css"/>
 	<link rel ="stylesheet" type="text/css" href="./CSS/style.css"/>
-	<link rel="stylesheet" href="./CSS/animation.css">
+	<link rel="stylesheet" href="./CSS/menu-effects.css">
 
 </head>
 <body>
@@ -35,14 +34,29 @@
 
 	<div class="header">
 		<nav class="main-nav">	
-			<ul id="menu">
+			<ul class="menu">
 				<li data-menuanchor="Startseite" class="active"><a href="#Startseite">Startseite</a></li>
 				<li data-menuanchor="Leistungen"><a href="#Leistungen">Leistungen</a></li>
 				<li data-menuanchor="Schwerpunkte"><a href="#Schwerpunkte">Schwerpunkte</a></li>
 				<li data-menuanchor="Produkte"><a href="#Produkte">Produkte</a></li>
 				<li data-menuanchor="Partner"><a href="#Partner">Partner</a></li>
-				<li data-menuanchor="Referenzen"><a href="#Referenzen">Referenzen</a></li>
-				<li data-menuanchor="Sonstiges"><a href="#Sonstiges">Sonstiges</a></li>
+				<li data-menuanchor="Referenzen"><a>Referenzen</a>
+					<ul class="submenu shield">
+						<li data-menuanchor="Industrie"><a href="#Referenzen">Industrie</a></li>
+						<li data-menuanchor="Infrastruktur"><a href="#Referenzen/1">Infrastruktur</a></li>
+						<li data-menuanchor="Schulungen"><a href="#Referenzen/2">Schulungen</a></li>
+						<li data-menuanchor="Weitere"><a href="#Referenzen/3">Weitere</a></li>
+					</ul>
+				</li>
+				<li data-menuanchor="Sonstiges"><a>Sonstiges</a>
+					<ul class="submenu shield">
+						<li data-menuanchor="Kontakt"><a href="#Sonstiges">Kontakt</a></li>
+						<li data-menuanchor="Navigation"><a href="#Sonstiges/1">Navigation</a></li>
+						<li data-menuanchor="Galerie"><a href="#Sonstiges/2">Galerie</a></li>
+						<li data-menuanchor="Impressum"><a href="#Sonstiges/3">Impressum</a></li>
+						<li data-menuanchor="Rechtshinweis"><a href="#Sonstiges/4">Rechtshinweis</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	</div>
@@ -166,6 +180,7 @@
 
 	</script>
 	<script type="text/javascript" src="./Controller/main.js"></script>
+	<script type="text/javascript" src="./Controller/menu-effects.js"></script>
 
 </body>
 </html>

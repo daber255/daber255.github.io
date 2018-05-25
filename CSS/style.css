@@ -212,7 +212,7 @@
 			position: fixed;
 			top: 0;
 			z-index: 1;
-			background: rgba(99, 99, 99, 0.493);
+			background: rgba(99, 99, 99, 0.521);
 			box-shadow: rgba(0, 0, 0, 1) 0 0 7px;
 		}
 		
@@ -223,7 +223,7 @@
 		}
 		
 		.main-nav li {
-			display: inline-block;
+			display: block;
 			margin-right: -4px;
 			padding: 0 15px;
 		}
@@ -231,13 +231,33 @@
 		.main-nav a {
 			display: block;
 			font-size: 22px;
-			color: #fff;
+			color: #000000;
 			text-decoration: none;
 		}
-		
-		.main-nav .active a {
-			color: #000000;
-		}
+
+		#top-menu-nav ul.sub-menu {
+			overflow: hidden;
+			background-color: transparent !important;
+			padding: 0px !important;
+			-webkit-box-shadow: none !important;
+			-moz-box-shadow: none !important;
+			box-shadow: none !important;
+		   }
+		   
+		   #top-menu-nav ul#top-menu > li:hover ul.sub-menu, 
+		   #top-menu-nav ul#top-menu > li:focus ul.sub-menu {
+			max-height: 2000px ;
+		   }
+		   
+		   #top-menu-nav #top-menu li li a {
+			width: 240px !important;
+			color: #fff !important;
+		   }
+		   
+		   #top-menu-nav #top-menu li li {
+			padding: 0px !important;
+			background-color: #666666 !important;
+		   }
 		/* Custom CSS
 		 * --------------------------------------- */
 		body{
@@ -280,7 +300,6 @@
 		/* Startseite
 		 * --------------------------------------- */
 		#section0{
-			/*background: linear-gradient(rgb(2, 168, 154), rgb(197, 197, 197));*/
 			background-image: url("bg.jpg");
 			background-size: cover;
 			height: 100%;
@@ -458,7 +477,7 @@
 			transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
 						opacity .66s ease-in-out,
 						-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-			color: #F2F2F2;
+			color: rgba(0, 36, 77, 0.788);
 		}
 
 		#section2.active h1{
